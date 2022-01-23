@@ -48,7 +48,7 @@ class Solution {
             return null;
         }
         conversion(root);
-        //Do the final linking to creat a circular doubly linked list
+        //Do the final linking to create a circular doubly linked list
         prev.right = min;
         min.left = prev;
         return min;
